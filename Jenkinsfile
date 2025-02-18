@@ -5,7 +5,7 @@ pipeline {
         IMAGE_NAME = "demo-img-team7-khkim"
         IMAGE_TAG = "latest"
         NAMESPACE = "under76-test"
-        JAVA_HOME = "/usr/loacl/java21"
+        JAVA_HOME = "/usr/local/java21"
         PATH = "${JAVA_HOME}/bin:${env.PATH}"
     }
     stages {
